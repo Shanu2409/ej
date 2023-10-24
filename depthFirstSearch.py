@@ -6,6 +6,8 @@ def dfs(node):
         print(node)
         visited.add(node)
         [dfs(nextt) for nextt in graph[node]]
+        # for nextt in graph[node]:
+        #     dfs(nextt)
 
 
 visited = set()
